@@ -8,7 +8,7 @@ export const StyledAppBar = styled(({ isScrolled, ...props }) => (
     props.isScrolled ? "#3081ED" : "transparent"} !important;
 `;
 
-export const Logo = styled.a`
+export const Logo = styled.h2`
   margin: 0;
   padding: 0;
   font-size: 2rem;
