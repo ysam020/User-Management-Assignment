@@ -1,4 +1,4 @@
-# User Management App
+# User Management App | [Live Demo](https://user-management-assignment.netlify.app/)
 
 This is a React web application that fetches user data from a public API and allows users to view, add, and search for users.
 
@@ -20,7 +20,7 @@ NPM package manager
 
 1. Clone the repository
 
-`git clone https://github.com/ysam020/User-Management-App.git`
+`git clone https://github.com/ysam020/User-Management-Assignment.git`
 
 2. Install dependencies
 
