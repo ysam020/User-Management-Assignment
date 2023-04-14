@@ -1,38 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# User Management App
+
+This is a React web application that fetches user data from a public API and allows users to view, add, and search for users.
+
+## Technologies Used
+
+1. Next JS
+2. axios (for fetching data from the API)
+3. styled-components (for styling)
+4. Formik and Yup (for form validations)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Node.js
+NPM package manager
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. Clone the repository
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+`git clone https://github.com/ysam020/User-Management-App.git`
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+2. Install dependencies
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+`npm install`
 
-## Learn More
+3. Start the development server
 
-To learn more about Next.js, take a look at the following resources:
+`npm run dev`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Open http://localhost:3000 with your browser to see the result.
+5. You can start adding, searching and managing users using the provided UI.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Features
 
-## Deploy on Vercel
+### List of Users
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The application displays a list of users that includes the following information:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. User ID
+2. Name
+3. Email
+4. Phone
+
+### Adding New Users
+
+The application provides a form that allows users to add new users to the list. The form includes the following fields:
+
+1. Name
+2. Email
+3. Phone
+
+Once the form is submitted, the new user is added to the list.
+
+### Searching for Users
+
+The application allows users to search for users based on their name or email address. Users can enter a search term in the search field and the list of users will be filtered to show only users whose either name or email matches the search term.
+
+### Styling
+
+This application uses styled-components to style the UI. The styles have been written in a way that makes them easy to read and understand.
+
+Thank you for taking the time to review this project!
